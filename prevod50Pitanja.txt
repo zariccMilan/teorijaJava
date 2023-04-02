@@ -172,3 +172,17 @@ Koji je cilj izjave "try-with-resources" u Javi?
 Izjava "try-with-resources" u Javi se koristi za automatsko zatvaranje resursa, kao što su tokovi, datoteke i soketi, koji su otvoreni tokom izvršavanja programa. 
 Eliminiše potrebu za eksplicitnim kodom upravljanja resursima i pomaže u sprečavanju curenja i grešaka resursa. Izjava uzima jedan ili više resursa kao svoje argumente, 
 a resursi se automatski zatvaraju na kraju bloka, bez obzira da li se pojavio izuzetak.
+
+Sta je mutabilna lista ?
+Mutabilna lista u Javi je kolekcija elemenata koja omogućava promenu sadržaja nakon što je lista stvorena. U Javi se mutabilna lista obično implementira pomoću klase ArrayList ili LinkedList.
+Klase ArrayList i LinkedList implementiraju interfejs List, koji definiše niz operacija koje se mogu izvršiti nad listom, uključujući dodavanje, uklanjanje i dohvatanje elemenata. 
+Međutim, klase ArrayList i LinkedList se razlikuju u načinu na koji pohranjuju i organizuju elemente.
+ArrayList pohranjuje elemente u nizu i omogućava brz pristup elementima pomoću indeksa. Međutim, dodavanje ili uklanjanje elemenata na početku ili u sredini liste može biti sporo 
+jer zahteva premještanje drugih elemenata kako bi se osigurao kontinuirani niz.
+S druge strane, LinkedList pohranjuje elemente u povezanoj listi, što omogućava brzo dodavanje ili uklanjanje elemenata u bilo kojem delu liste, 
+ali može biti sporiji pristup pojedinačnim elementima zbog potrebe za prolaskom kroz listu kako bi se došlo do određenog elementa.
+
+Sta je mutabilan String ?
+Mutabilan String (engl. mutable string) je tekstualni niz koji se može promeniti nakon što je napravljen. Međutim, u programskom jeziku Java, tekstualni nizovi su neizmenjivi 
+(engl. immutable), što znači da se nakon što je niska napravljena, njen sadržaj ne može biti promenjen.
+
