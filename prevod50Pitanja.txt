@@ -1,0 +1,174 @@
+Šta je Java?
+Java je popularni programski jezik koji se široko koristi za razvoj aplikacija, posebno u klijent-server web aplikacijama. Stvoren je od strane Sun Microsystems-a (sada u vlasništvu Oracle Corporation-a) i 
+objavljen 1995. godine.
+Java je objektno orijentisan jezik koji se pokreće na virtualnoj mašini nazvanoj Java Virtual Machine (JVM).
+
+Koja je razlika između apstraktne klase i interfejsa?
+Apstraktna klasa je klasa koja ne može biti instancirana i može imati apstraktne i ne-apstraktne metode. Interfejs je kolekcija apstraktnih metoda koje ne mogu imati bilo kakvu implementaciju. U Javi,
+klasa može proširiti samo jednu apstraktnu klasu, ali može implementirati više interfejsa.
+
+Koja je razlika između klase i objekta?
+Klasa je šablona za kreiranje objekata koji definišu atribute i ponašanja objekata. Objekat je instanca klase koja predstavlja stvarni entitet i može se manipulisati pozivanjem njenih metoda.
+
+Šta je konstruktor u Javi?
+Konstruktor je posebna metoda u Javi koja se koristi za inicijalizaciju objekata. Poziva se automatski kada se objekat kreira i koristi se za postavljanje početnih vrednosti atributa objekta.
+
+Koji su modifikatori pristupa u Javi?
+Modifikatori pristupa su ključne reči koje određuju pristupačnost klase, metode ili promenljive u Javi. Četiri modifikatora pristupa u Javi su: public, private, protected i podrazumevani.
+
+Koja je razlika između operatora "==" i metode "equals()"?
+Operator "==" poređuje memorijske adrese dva objekta da bi odredio da li su isti objekat. Metoda "equals()" poređuje vrednosti dva objekta da bi odredila da li su jednake.
+
+Koja je razlika između statične i nestatične metode?
+Statična metoda pripada klasi i može se pozvati bez kreiranja objekta klase. Nestatična metoda pripada objektu klase i može se pozvati samo nakon kreiranja objekta klase.
+
+Koja je razlika između steka i reda?
+Stek je struktura podataka koja sledi princip "poslednji unutra, prvi van" (LIFO), gde je poslednji element dodat na stek prvi element koji se uklanja. 
+Red je struktura podataka koja sledi princip "prvi unutra, prvi van" (FIFO), gde je prvi element dodat na red prvi element koji se uklanja.
+
+Šta je polimorfizam?
+Polimorfizam je sposobnost objekta da poprima više oblika ili ima više ponašanja u zavisnosti od konteksta u kojem se koristi. U Javi, polimorfizam se može postići preko preklapanja metoda i nadjačavanja metoda.
+
+Šta je nasleđivanje u Javi?
+Nasleđivanje je mehanizam u Javi koji omogućava podklasi da nasledi osobine i ponašanja njenog roditeljskog razreda. To pomaže da se podstakne ponovna upotreba koda i smanji redundancija u kodu.
+
+Šta je inkapsulacija u Javi?
+Inkapsulacija je mehanizam u Javi koji omogućava da podaci budu skriveni od drugih razreda i pristupaju se samo preko metoda definisanih u razredu. To pomaže da se osigura integritet podataka i spreči neovlašćen pristup podacima.
+
+Koja je razlika između ArrayList i LinkedList?
+ArrayList je dinamički niz koji omogućava dodavanje ili uklanjanje elemenata sa bilo koje pozicije u nizu. LinkedList je povezana lista koja omogućava dodavanje ili uklanjanje elemenata sa oba kraja liste.
+
+Koja je razlika između HashMap i TreeMap?
+HashMap je neuređena kolekcija parova ključ-vrednost koji omogućava nule ključeve i vrednosti. TreeMap je sortirana mapa koja uređuje svoje unose na osnovu ključeva.
+
+Šta je singleton klasa?
+Singleton klasa je klasa koja može imati samo jednu instancu u celom sistemu. Često se koristi da obezbedi globalnu tačku pristupa resursima.
+
+Koja je razlika između proverenih i neproverenih izuzetaka?
+U Javi, izuzeci se dele na dve kategorije: proverene i neproverene. Provereni izuzeci su izuzeci koji se proveravaju pri vreme kompajliranja. To znači da programer mora da rukuje tim izuzecima
+tako što će ih uhvatiti ili ih deklarisati u potpisu metode. Primeri proverenih izuzetaka uključuju IOException, SQLException i ClassNotFoundException.
+
+Neprovereni izuzeci, s druge strane, su izuzeci koji se ne proveravaju pri vreme kompajliranja. To znači da programer nije obavezan da rukuje tim izuzecima.
+Neprovereni izuzeci obično su uzrokovani programskim greškama kao što su izuzeci null pokazivača, izuzeci van granica niza i izuzeci izbacivanja klase.
+Primeri neproverenih izuzetaka uključuju RuntimeException, NullPointerException i IndexOutOfBoundsException.
+
+StringBuilder i StringBuffer su objekti u Javi koji predstavljaju promjenjive sekvence znakova. Glavna razlika između ova dva objekta je ta što je StringBuffer siguran za korišćenje u višenitnim aplikacijama jer je 
+sinhronizovan i može se koristiti od strane više niti, dok StringBuilder nije siguran za korišćenje u višenitnim aplikacijama.
+
+Sinhronizovana metoda može biti pristupljena samo jednom niti u isto vrijeme, što sprečava više niti da pristupaju metodi istovremeno, dok nesinhronizovana metoda može biti pristupljena od strane više niti istovremeno.
+
+U Javi, nit je najmanja jedinica obrade u programu i predstavlja poseban tok izvršenja u okviru programa. Više niti može se izvršavati istovremeno u okviru programa.
+
+Deadlock je situacija u kojoj se dvije ili više niti čekaju da druga nit oslobodi resurs, što rezultira situacijom u kojoj se nijedna nit ne može nastaviti sa izvršavanjem.
+
+U Javi, race condition se javlja kada više niti pristupa dijeljenim podacima istovremeno, što dovodi do nepredvidljivih rezultata. Ishod programa zavisi od redoslijeda i vremena pristupa dijeljenim podacima od strane niti.
+
+JVM (Java Virtual Machine) je apstraktna mašina koja obezbjeđuje okruženje za izvršavanje Java programa. JVM prevodi kompilirani Java bytecode u strojno specifične instrukcije koje se mogu izvršiti na računaru.
+
+JIT (Just-In-Time) kompilator je vrsta kompilatora koji kompilira kod u toku izvršavanja programa, za razliku od kompilacije unaprijed. U Javi, JVM koristi JIT kompilator za kompiliranje bytecode u strojno 
+specifične instrukcije u toku izvršavanja programa, poboljšavajući performanse programa.
+
+Garbage collection je proces kojim JVM automatski oslobađa memoriju koja više nije u upotrebi u programu.
+
+Metoda finalize() je metoda koju pruža klasa Object u Javi koju poziva garbage collector prije nego što se objekat uništi. Može se koristiti za obavljanje operacija čišćenja na objektu prije uništenja.
+
+Privatna metoda se može pristupiti samo unutar klase u kojoj je definisana, dok se zaštićena metoda može pristupiti od strane podklasa klase u kojoj je definisana.
+
+Šta je paket u programskom jeziku Java?
+
+Paket u programskom jeziku Java je imenovani prostor koji sadrži grupu srodnih klasa i interfejsa. Paketi omogućavaju organizaciju i upravljanje velikim Java programima.
+
+Šta je interfejs u programskom jeziku Java?
+
+Interfejs u programskom jeziku Java je skup apstraktnih metoda koje definišu skup ponašanja. Klase mogu da implementiraju interfejs kako bi pružile konkretne implementacije apstraktnih metoda.
+
+Koja je svrha bloka "finally" u programskom jeziku Java?
+
+Blok "finally" se koristi u "try-catch-finally" izrazima da bi se specificirao blok koda koji će biti izvršen bez obzira da li se desi izuzetak ili ne.
+
+Šta je lambda izraz u programskom jeziku Java?
+
+Lambda izraz je kratak blok koda koji predstavlja funkciju. Može se koristiti za kreiranje anonimnih funkcija koje se mogu proslediti kao argumenti drugim funkcijama.
+
+Šta je tok u programskom jeziku Java 8?
+
+Tok u programskom jeziku Java 8 je sekvenca elemenata koja se može obraditi paralelno ili sekvenčno. Tokovi obezbeđuju način za izvođenje operacija nad kolekcijama podataka na funkcionalan način.
+
+Koja je razlika između referisanja metode i lambda izraza?
+
+Referisanje metode je skraćena notacija za lambda izraz koji se odnosi na postojeću metodu. Lambda izrazi se mogu koristiti za kreiranje novih funkcija, dok se referisanje metode koristi za referenciranje postojećih funkcija.
+
+Šta je funkcionalni interfejs u programskom jeziku Java?
+
+Funkcionalni interfejs je interfejs koji ima samo jednu apstraktnu metodu. Koristi se za pružanje jednostrukog interfejsa metode koji se implementira sa lambda izrazom ili referisanjem metode. 
+Programski jezik Java 8 je uveo funkcionalne interfejse kako bi podržao novu funkcionalnost lambda izraza.
+
+Koja je svrha ključne reči "super" u programskom jeziku Java?
+
+Ključna reč "super" u programskom jeziku Java se koristi za referisanje na nadređenu klasu. Koristi se za pristup metodama, varijablama i konstruktorima nadređene klase.
+
+What is a default method in Java 8?
+Default metoda je metoda u interfejsu koja ima podrazumevanu implementaciju. Pruža način da se dodaju nove metode u interfejs, a da se ne naruše postojeće implementacije.
+Default metode su uvedene u Java 8 da bi podržale novu funkciju lambda izraza.
+
+What is the difference between a final, finally, and finalize keyword in Java?
+"Final" je ključna reč koja se koristi da označi da se promenljiva ili metoda ne može menjati. "Finally" je ključna reč koja se koristi u bloku try-catch da bi se izvršio blok koda bez obzira da li je izuzetak bačen ili ne.
+"Finalize" je metoda u Javi koju poziva sakupljač smeća pre nego što se objekat uništi kako bi izvršila konačne operacije čišćenja.
+
+What is the purpose of the "volatile" keyword in Java?
+Ključna reč "volatile" u Javi se koristi da bi se pokazalo da vrednost promenljive može biti izmenjena od strane više niti. Ona osigurava da se vrednost promenljive uvek čita iz glavne memorije, a ne iz keša niti,
+koji može imati zastarele podatke.
+
+What is the purpose of the "transient" keyword in Java?
+Ključna reč "transient" u Javi se koristi da bi se pokazalo da se promenljiva ne sme serijalizovati. Korisna je kada vrednost promenljive nije potrebna da bi se očuvala prilikom serijalizacije objekta.
+
+What is the purpose of the "static" keyword in Java?
+Ključna reč "static" u Javi se koristi da bi se pokazalo da metoda ili promenljiva pripada klasi, a ne instanci klase. Statičke metode i promenljive se mogu pristupiti bez kreiranja objekta klase.
+
+What is the purpose of the "abstract" keyword in Java?
+Ključna reč "abstract" u Javi se koristi da bi se pokazalo da je klasa ili metoda apstraktna, tj. da nema implementaciju. Apstraktne klase i metode mogu se koristiti samo kao šablon za druge klase koje ih proširuju ili 
+implementiraju.
+
+What is the purpose of the "strictfp" keyword in Java?
+Ključna reč "strictfp" u Javi se koristi da bi se pokazalo da klasa ili metoda treba da prati stroga pravila preciznosti za brojeve sa pokretnim zarezom navedena u IEEE 754 standardu. Osigurava da se izračunavanja
+brojeva sa pokretnim zarezom vrše na isti način na svim platformama.
+
+Šta je svrha "this" ključne reči u Javi?
+"This" ključna reč u Javi se koristi za referenciranje trenutnog objekta. Koristi se za razlikovanje instancnih promenljivih i lokalnih promenljivih sa istim imenom.
+
+Šta je generička klasa u Javi?
+Generička klasa u Javi je klasa koja može raditi sa različitim tipovima objekata. Definiše se upotrebom tipa parametra, koji se zamenjuje stvarnim tipom prilikom kreiranja objekta.
+
+Koja je razlika između plitke i duboke kopije u Javi?
+Plitka kopija kreira novi objekat koji pokazuje na istu memorijsku lokaciju kao i originalni objekat. Duboka kopija kreira novi objekat i kopira sve podatke sa originalnog objekta na novi objekat.
+
+Šta je refleksija u Javi?
+Refleksija je mogućnost u Javi koja vam omogućava da pregledate ili izmenite ponašanje klase ili objekta u vreme izvršavanja, čak i ako klasa ili objekat nisu poznati u vreme kompiliranja.
+Ovo vam omogućava da dinamički inspicirate i manipulišete objektima, kao što je dobijanje informacija o njihovim poljima, metodama i konstruktorima, i pozivanje metoda na njima.
+
+Koja je svrha "assert" ključne reči u Javi?
+"Assert" ključna reč u Javi se koristi u svrhe debagovanja i testiranja. Omogućava vam da testirate pretpostavke o ponašanju vašeg programa u vreme izvršavanja, i da izbacite grešku ako tvrdnja nije tačna.
+Ovo pomaže da uhvatite greške i logičke greške u kodu tokom razvoja i testiranja.
+
+Koja je razlika između privatne i zaštićene promenljive?
+U Javi, privatna promenljiva može se pristupiti samo unutar klase u kojoj je deklarisana. Nije dostupna iz bilo koje druge klase, uključujući podklase. Sa druge strane, zaštićena promenljiva može se pristupiti
+unutar klase u kojoj je deklarisana, kao i od strane bilo koje podklase te klase.
+
+Šta je JavaBean?
+JavaBean je klasa u Javi koja prati skup konvencija za definisanje ponovno upotrebljivih softverskih komponenti. To je jednostavna, serijalizabilna i ponovno upotrebljiva komponenta koja se 
+lako može integrisati u razne aplikacije.
+JavaBean bi trebalo da ima konstruktor bez argumenata, privatne instance varijable sa javnim metodama getter i setter i trebalo bi da implementira Serializable interfejs.
+
+Koja je razlika između steka i heapa?
+U Javi, stek i heap su dva različita tipa memorije koji se koriste za skladištenje podataka. Stek je oblast memorije koja se koristi za skladištenje privremenih varijabli i poziva metoda. 
+To je LIFO (poslednji ulazi, prvi izlazi) struktura podataka, što znači da se poslednja stavka dodata na stek prva uklanja. S druge strane, heap je oblast memorije koja se koristi za dinamičku alokaciju memorije. 
+To je fleksibilnija struktura podataka u kojoj se objekti skladište i uklanjaju u nepredvidivom redosledu.
+
+Koji je cilj ključne reči "throws" u Javi?
+Ključna reč "throws" u Javi se koristi da bi se saopštilo da metoda može da izbaci izuzetak. To je deo potpisa metode i obaveštava pozivaoca metode da moraju rukovati svim izuzecima koji bi mogli biti izbačeni iz metode. 
+To pomaže da se osigura da su sva potencijalna izuzetka uhvaćena i obradjena na odgovarajući način, poboljšavajući ukupnu pouzdanost i pouzdanost programa.
+
+Koji je cilj izjave "try-with-resources" u Javi?
+Izjava "try-with-resources" u Javi se koristi za automatsko zatvaranje resursa, kao što su tokovi, datoteke i soketi, koji su otvoreni tokom izvršavanja programa. 
+Eliminiše potrebu za eksplicitnim kodom upravljanja resursima i pomaže u sprečavanju curenja i grešaka resursa. Izjava uzima jedan ili više resursa kao svoje argumente, 
+a resursi se automatski zatvaraju na kraju bloka, bez obzira da li se pojavio izuzetak.
