@@ -1,0 +1,386 @@
+What is Java?
+What is the difference between an abstract class and an interface?
+What is the difference between a class and an object?
+What is a constructor in Java?
+What are the access modifiers in Java?
+What is the difference between the "==" operator and the "equals()" method?
+What is the difference between a static and a non-static method?
+What is the difference between a stack and a queue?
+What is polymorphism?
+What is inheritance in Java?
+What is encapsulation in Java?
+What is the difference between an ArrayList and a LinkedList?
+What is the difference between a HashMap and a TreeMap?
+What is a singleton class?
+What is the difference between checked and unchecked exceptions?
+What is the difference between a StringBuilder and a StringBuffer?
+What is the difference between a synchronized and an unsynchronized method?
+What is a thread in Java?
+What is a deadlock in Java?
+What is a race condition in Java?
+What is a JVM?
+What is a JIT compiler?
+What is garbage collection in Java?
+What is a finalize() method?
+What is the difference between a private and a protected method?
+What is a package in Java?
+What is an interface in Java?
+What is the purpose of the "finally" block in Java?
+What is a lambda expression in Java?
+What is a stream in Java 8?
+What is the difference between a method reference and a lambda expression?
+What is a functional interface in Java?
+What is the purpose of the "super" keyword in Java?
+What is a default method in Java 8?
+What is the difference between a final, finally, and finalize keyword in Java?
+What is the purpose of the "volatile" keyword in Java?
+What is the purpose of the "transient" keyword in Java?
+What is the purpose of the "static" keyword in Java?
+What is the purpose of the "abstract" keyword in Java?
+What is the purpose of the "strictfp" keyword in Java?
+What is the purpose of the "this" keyword in Java?
+What is a generic class in Java?
+What is the difference between a shallow and a deep copy in Java?
+What is a reflection in Java?
+What is the purpose of the "assert" keyword in Java?
+What is the difference between a private and a protected variable?
+What is a JavaBean?
+What is the difference between a stack and a heap?
+What is the purpose of the "throws" keyword in Java?
+What is the purpose of the "try-with-resources" statement in Java?
+
+
+
+=================================================================================================================================================================================================================
+
+What is Java?
+Java is a popular programming language that is widely used for developing applications, especially in client-server web applications. It was created by Sun Microsystems (now owned by Oracle Corporation) and released in 1995. 
+Java is an object-oriented language that runs on a virtual machine called the Java Virtual Machine (JVM).
+
+What is the difference between an abstract class and an interface?
+An abstract class is a class that cannot be instantiated and can have both abstract and non-abstract methods. An interface is a collection of abstract methods that cannot have any implementation. In Java, 
+a class can extend only one abstract class, but can implement multiple interfaces.
+
+What is the difference between a class and an object?
+A class is a blueprint for creating objects that define the attributes and behaviors of the objects. An object is an instance of a class that represents a real-world entity and can be manipulated by invoking its methods.
+
+What is a constructor in Java?
+A constructor is a special method in Java that is used to initialize objects. It is called automatically when an object is created and is used to set initial values for the object's attributes.
+
+What are the access modifiers in Java?
+Access modifiers are keywords that determine the accessibility of a class, method, or variable in Java. The four access modifiers in Java are public, private, protected, and default.
+
+What is the difference between the "==" operator and the "equals()" method?
+The "==" operator compares the memory addresses of two objects to determine if they are the same object. The "equals()" method compares the values of two objects to determine if they are equal.
+
+What is the difference between a static and a non-static method?
+A static method belongs to the class and can be called without creating an object of the class. A non-static method belongs to an object of the class and can only be called after creating an object of the class.
+
+What is the difference between a stack and a queue?
+A stack is a data structure that follows the Last-In-First-Out (LIFO) principle, where the last element added to the stack is the first element to be removed. A queue is a data structure that 
+follows the First-In-First-Out (FIFO) principle, where the first element added to the queue is the first element to be removed.
+
+What is polymorphism?
+Polymorphism is the ability of an object to take on multiple forms or have multiple behaviors depending on the context in which it is used. In Java, polymorphism can be achieved through method overloading and method overriding.
+
+What is inheritance in Java?
+Inheritance is a mechanism in Java that allows a subclass to inherit the properties and behaviors of its parent class. This helps to promote code reuse and reduce redundancy in the code.
+
+What is encapsulation in Java?
+Encapsulation is a mechanism in Java that allows data to be hidden from other classes and accessed only through methods defined in the class. This helps to ensure data integrity and prevent unauthorized access to data.
+
+What is the difference between an ArrayList and a LinkedList?
+An ArrayList is a dynamic array that allows elements to be added or removed from any position in the array. A LinkedList is a linked list that allows elements to be added or removed from both ends of the list.
+
+What is the difference between a HashMap and a TreeMap?
+A HashMap is an unordered collection of key-value pairs that allows null keys and values. A TreeMap is a sorted map that orders its entries based on the keys.
+
+What is a singleton class?
+A singleton class is a class that can have only one instance in the entire system. It is often used to provide a global point of access to a resource.
+
+What is the difference between checked and unchecked exceptions?
+In Java, exceptions are divided into two categories: checked and unchecked. Checked exceptions are the exceptions that are checked at compile-time. This means that the programmer must handle these exceptions 
+by either catching them or declaring them in the method signature. Examples of checked exceptions include IOException, SQLException, and ClassNotFoundException.
+
+Unchecked exceptions, on the other hand, are the exceptions that are not checked at compile-time. This means that the programmer is not required to handle these exceptions. 
+Unchecked exceptions are typically caused by programming errors such as null pointer exceptions, array index out of bounds exceptions, and class cast exceptions. 
+Examples of unchecked exceptions include RuntimeException, NullPointerException, and IndexOutOfBoundsException.
+
+What is the difference between a StringBuilder and a StringBuffer?
+StringBuilder and StringBuffer are both classes that represent mutable sequences of characters. The main difference is that StringBuffer is thread-safe, meaning it is synchronized and can be used by multiple threads, 
+while StringBuilder is not thread-safe.
+
+What is the difference between a synchronized and an unsynchronized method?
+A synchronized method can only be accessed by one thread at a time, preventing multiple threads from accessing the method simultaneously, while an unsynchronized method can be accessed by multiple threads simultaneously.
+
+What is a thread in Java?
+A thread is the smallest unit of processing in a program, and represents a separate flow of execution within the program. Multiple threads can run concurrently within a program.
+
+What is a deadlock in Java?
+A deadlock is a situation where two or more threads are waiting for each other to release a resource, resulting in a situation where none of the threads can proceed.
+
+What is a race condition in Java?
+A race condition occurs when multiple threads access shared data simultaneously, leading to unpredictable results. The outcome of the program depends on the order and timing of the threads' access to the shared data.
+
+What is a JVM?
+A JVM (Java Virtual Machine) is an abstract machine that provides the runtime environment in which Java programs execute. The JVM translates compiled Java bytecode into machine-specific instructions 
+that can be executed by the computer.
+
+What is a JIT compiler?
+A JIT (Just-In-Time) compiler is a type of compiler that compiles code at runtime, as opposed to ahead-of-time compilation. In Java, the JVM uses a JIT compiler to compile bytecode into machine-specific 
+instructions at runtime, improving the performance of the program.
+
+What is garbage collection in Java?
+Garbage collection is the process by which the JVM automatically frees up memory that is no longer being used by the program.
+
+What is a finalize() method?
+The finalize() method is a method provided by the Object class in Java that is called by the garbage collector before an object is destroyed. It can be used to perform cleanup operations on the object before it is destroyed.
+
+What is the difference between a private and a protected method?
+A private method can only be accessed within the class in which it is defined, while a protected method can be accessed by subclasses of the class in which it is defined.
+
+What is a package in Java?
+A package is a namespace that contains a group of related classes and interfaces. Packages provide a way to organize and manage large Java programs.
+
+What is an interface in Java?
+An interface in Java is a collection of abstract methods that define a set of behaviors. Classes can implement an interface to provide concrete implementations of the abstract methods.
+
+What is the purpose of the "finally" block in Java?
+The finally block is used in try-catch-finally statements to specify a block of code that will be executed regardless of whether an exception is thrown or not.
+
+What is a lambda expression in Java?
+A lambda expression is a short block of code that represents a function. It can be used to create anonymous functions that can be passed as arguments to other functions.
+
+What is a stream in Java 8?
+A stream in Java 8 is a sequence of elements that can be processed in parallel or sequentially. Streams provide a way to perform operations on collections of data in a functional style.
+
+What is the difference between a method reference and a lambda expression?
+A method reference is a shorthand notation for a lambda expression that refers to an existing method. Lambda expressions can be used to create new functions, while method references are used to refer to existing functions.
+
+What is a functional interface in Java?
+A functional interface is an interface that has only one abstract method. It is used to provide a single method interface to implement with a lambda expression or a method reference. 
+Java 8 introduced functional interfaces to support the new lambda expressions feature.
+
+What is the purpose of the "super" keyword in Java?
+The "super" keyword in Java is used to refer to the parent class. It is used to access methods, variables, and constructors of the parent class.
+
+What is a default method in Java 8?
+A default method is a method in an interface that has a default implementation. It provides a way to add new methods to an interface without breaking the existing implementations. 
+Default methods are introduced in Java 8 to support the new lambda expressions feature.
+
+What is the difference between a final, finally, and finalize keyword in Java?
+"final" is a keyword used to indicate that a variable or method cannot be changed. "finally" is a keyword used in a try-catch block to execute a block of code regardless of whether an exception is thrown or not. 
+"finalize" is a method in Java that is called by the garbage collector before an object is destroyed to perform final cleanup operations.
+
+What is the purpose of the "volatile" keyword in Java?
+The "volatile" keyword in Java is used to indicate that a variable's value may be modified by multiple threads. It ensures that the value of the variable is always read from the main memory and not from the thread's cache, 
+which may have stale data.
+
+What is the purpose of the "transient" keyword in Java?
+The "transient" keyword in Java is used to indicate that a variable should not be serialized. It is useful when a variable's value does not need to be persisted when an object is serialized.
+
+What is the purpose of the "static" keyword in Java?
+The "static" keyword in Java is used to indicate that a method or variable belongs to the class, rather than an instance of the class. Static methods and variables can be accessed without creating an object of the class.
+
+What is the purpose of the "abstract" keyword in Java?
+The "abstract" keyword in Java is used to indicate that a class or method is abstract, i.e., it has no implementation. Abstract classes and methods can only be used as a blueprint for other classes to extend or implement.
+
+What is the purpose of the "strictfp" keyword in Java?
+The "strictfp" keyword in Java is used to indicate that a class or method should follow strict floating-point precision rules specified by the IEEE 754 standard. It ensures that floating-point calculations 
+produce the same results on all platforms.
+
+What is the purpose of the "this" keyword in Java?
+The "this" keyword in Java is used to refer to the current object. It is used to distinguish between the instance variables and local variables with the same name.
+
+What is a generic class in Java?
+A generic class in Java is a class that can work with different types of objects. It is defined using a type parameter, which is replaced by the actual type at the time of object creation.
+
+What is the difference between a shallow and a deep copy in Java?
+A shallow copy creates a new object that points to the same memory location as the original object. A deep copy creates a new object and copies all the data from the original object to the new object.
+
+What is a reflection in Java?
+Reflection is a feature in Java that allows you to examine or modify the behavior of a class or an object at runtime, even if the class or object was not known at compile time. 
+This enables you to inspect and manipulate objects dynamically, such as retrieving information about their fields, methods, and constructors, and invoking methods on them.
+
+What is the purpose of the "assert" keyword in Java?
+The "assert" keyword in Java is used for debugging and testing purposes. It allows you to test assumptions about your program's behavior at runtime, and throw an error if the assertion is false. 
+This helps to catch bugs and logic errors in the code during development and testing.
+
+What is the difference between a private and a protected variable?
+In Java, a private variable can only be accessed within the class in which it is declared. It is not accessible from any other class, including subclasses. On the other hand, a protected variable can be accessed 
+within the class in which it is declared, as well as by any subclasses of that class.
+
+What is a JavaBean?
+A JavaBean is a class in Java that follows a set of conventions to define a reusable software component. It is a simple, serializable, and reusable component that can be easily integrated into various applications. 
+A JavaBean should have a no-argument constructor, private instance variables with public getter and setter methods, and should implement the Serializable interface.
+
+What is the difference between a stack and a heap?
+In Java, a stack and a heap are two different types of memory used for storing data. A stack is a region of memory used for storing temporary variables and method calls. It is a LIFO (Last In, First Out) data structure, 
+meaning that the last item added to the stack is the first one to be removed. On the other hand, a heap is a region of memory used for dynamic memory allocation. It is a more flexible data structure, 
+where objects are stored and removed in an unpredictable order.
+
+What is the purpose of the "throws" keyword in Java?
+The "throws" keyword in Java is used to declare that a method may throw an exception. It is part of the method signature, and informs the caller of the method that they must handle any exceptions 
+that might be thrown by the method. This helps to ensure that any potential exceptions are caught and handled appropriately, improving the overall robustness and reliability of the program.
+
+What is the purpose of the "try-with-resources" statement in Java?
+The "try-with-resources" statement in Java is used for automatically closing resources, such as streams, files, and sockets, that are opened during the execution of a program. It eliminates the need for 
+explicit resource management code, and helps to prevent resource leaks and errors. The statement takes one or more resources as its arguments, and the resources are automatically closed at the end of the block, 
+regardless of whether an exception occurs.
+
+=================================================================================================================================================================================================================
+
+Drugih 50 pitanja i odgovora
+
+What is Java?
+Java is a high-level, object-oriented programming language that is used to develop web applications, mobile applications, and desktop applications.
+
+What is the difference between a JDK and a JRE?
+A JDK, or Java Development Kit, is a software development environment for writing Java applications, while a JRE, or Java Runtime Environment, is a runtime environment for running Java applications.
+
+What is an object in Java?
+An object is an instance of a class in Java. It has its own state and behavior, which are defined by the class.
+
+What is a class in Java?
+A class is a blueprint for creating objects in Java. It defines the properties and methods that an object of the class can have.
+
+What are the basic data types in Java?
+The basic data types in Java include integer, float, double, boolean, char, and byte.
+
+What is a variable in Java?
+A variable is a named location in memory that is used to store a value in Java.
+
+What is an array in Java?
+An array is a data structure that stores a collection of elements of the same type.
+
+What is inheritance in Java?
+Inheritance is a mechanism in Java that allows a class to inherit the properties and methods of another class.
+
+What is polymorphism in Java?
+Polymorphism is a mechanism in Java that allows objects of different classes to be treated as if they are objects of the same class.
+
+What is encapsulation in Java?
+Encapsulation is a mechanism in Java that allows a class to hide its internal data and behavior from other classes.
+
+What is an interface in Java?
+An interface is a collection of abstract methods that can be implemented by a class.
+
+What is an abstract class in Java?
+An abstract class is a class that cannot be instantiated and is designed to be subclassed.
+
+What is a constructor in Java?
+A constructor is a special method that is used to create and initialize an object in Java.
+
+What is the difference between a constructor and a method in Java?
+A constructor is a special method that is used to create and initialize an object, while a method is a regular method that performs a specific action.
+
+What is a static method in Java?
+A static method is a method that belongs to a class rather than an instance of a class.
+
+What is the final keyword in Java?
+The final keyword in Java is used to indicate that a variable or method cannot be changed once it is initialized.
+
+What is a package in Java?
+A package is a collection of related classes and interfaces in Java.
+
+What is a thread in Java?
+A thread is a separate path of execution in a program.
+
+What is synchronization in Java?
+Synchronization is a mechanism in Java that allows multiple threads to access shared resources in a safe and orderly manner.
+
+What is the purpose of the synchronized keyword in Java?
+The synchronized keyword in Java is used to ensure that only one thread at a time can access a shared resource.
+
+What is the this keyword in Java?
+The this keyword in Java refers to the current object.
+
+What is a getter method in Java?
+A getter method is a method that is used to retrieve the value of a private variable in a class.
+
+What is a setter method in Java?
+A setter method is a method that is used to set the value of a private variable in a class.
+
+What is a collection in Java?
+A collection is a group of related objects, usually of the same type.
+
+What is map in Java ?
+A Map in Java is an interface that represents a collection of key-value pairs, where each key is unique. It is a part of the Java Collections Framework and is used to store and manipulate data in a way 
+that allows efficient retrieval and modification of key-value pairs. The Map interface is implemented by several classes in Java, such as HashMap, TreeMap, and LinkedHashMap,
+each with their own specific characteristics and performance characteristics.
+
+What is the difference between an ArrayList and a LinkedList in Java?
+An ArrayList is implemented as a resizable array, while a LinkedList is implemented as a doubly linked list.
+
+What is a stack in Java?
+A stack is a data structure that stores a collection of elements in a last-in, first-out (LIFO) manner.
+
+What is a queue in Java?
+A queue is a data structure that stores a collection of elements in a first-in, first-out (FIFO) manner.
+
+What is the difference between an abstract class and an interface in Java?
+An abstract class can have implemented methods, while an interface cannot. Additionally, a class can implement multiple interfaces, but it can only inherit from one class.
+
+What is a package-private access modifier in Java?
+A package-private access modifier is a modifier in Java that allows a member of a class to be accessed only within the same package.
+
+What is the difference between a checked and an unchecked exception in Java?
+A checked exception is a type of exception that must be caught or declared in a method's throws clause, while an unchecked exception is not required to be caught or declared.
+
+What is the difference between a public and a private access modifier in Java?
+A public access modifier allows a member of a class to be accessed from any other class, while a private access modifier allows a member to be accessed only within the same class.
+
+What is a static variable in Java?
+A static variable is a variable that belongs to a class rather than an instance of a class.
+
+What is a static block in Java?
+A static block is a block of code that is executed when a class is loaded into memory.
+
+What is the difference between the equals() and == operators in Java?
+The equals() operator compares the values of two objects, while the == operator compares the references of two objects.
+
+What is the difference between a StringBuffer and a StringBuilder in Java?
+A StringBuffer is thread-safe, while a StringBuilder is not. Additionally, a StringBuffer is slower than a StringBuilder.
+
+What is the difference between a final class and a final method in Java?
+A final class cannot be subclassed, while a final method cannot be overridden in a subclass.
+
+What is the difference between a break and a continue statement in Java?
+A break statement terminates the current loop, while a continue statement skips to the next iteration of the loop.
+
+What is the difference between a try-catch and a try-finally statement in Java?
+A try-catch statement is used to catch and handle exceptions, while a try-finally statement is used to ensure that a block of code is executed, regardless of whether an exception is thrown or not.
+
+What is the difference between a public, private, protected, and default access modifier in Java?
+A public access modifier allows a member to be accessed from any other class, a private access modifier allows a member to be accessed only within the same class, 
+a protected access modifier allows a member to be accessed within the same package or subclasses, and a default access modifier allows a member to be accessed only within the same package.
+
+What is the difference between the Comparable and Comparator interfaces in Java?
+The Comparable interface is used to define a natural order for a class, while the Comparator interface is used to define an arbitrary order for a class.
+
+What is a lambda expression in Java?
+A lambda expression is a short block of code that is used to implement a functional interface.
+
+What is a functional interface in Java?
+A functional interface is an interface that has only one abstract method.
+
+What is the purpose of the synchronized keyword in Java?
+The synchronized keyword is used to create a block of code that can only be accessed by one thread at a time, preventing concurrent access.
+
+What is a thread pool in Java?
+A thread pool is a collection of worker threads that can be reused to execute tasks, improving performance and reducing resource usage.
+
+What is a deadlock in Java?
+A deadlock occurs when two or more threads are blocked and waiting for each other to release resources, resulting in a state of indefinite waiting.
+
+What is a volatile variable in Java?
+A volatile variable is a variable that is accessed by multiple threads and can be modified without the use of synchronization, ensuring visibility of changes to all threads.
+
+What is the purpose of the finalize() method in Java?
+The finalize() method is used to perform cleanup operations on an object before it is garbage collected.
+
+What is a heap in Java?
+A heap is a region of memory that is used for dynamic memory allocation.
+
+What is the difference between a HashMap and a HashTable in Java?
+A HashMap is not thread-safe and allows null values, while a HashTable is thread-safe and does not allow null values.
